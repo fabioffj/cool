@@ -1,0 +1,155 @@
+body {
+    background-color: #1F2937;
+    color: antiquewhite;
+    font-size: large;
+    font-family: 'Times New Roman', Times, serif;
+    cursor: default;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#headerlogo {
+    border-radius: 40px;
+    border: 2px solid antiquewhite;
+}
+
+.headerlink {
+    margin: 1vw;
+    color: antiquewhite;
+}
+
+.row {
+    display: flex;
+    justify-content: space-between;
+    padding: 2vw 7vw 1vw 7vw;
+    text-align: center;
+}
+
+.subrow2-2 {
+    justify-content: center !important;
+}
+
+.img {
+    justify-content: center;
+    display: block !important;
+    margin: 1vw;
+}
+
+.col {
+    display: flex;    
+}
+
+.row1 {
+    align-items: center;
+}
+
+.row1col1 {
+    display: block;
+    text-align: left;
+    margin: 1vw;
+}
+
+#button1 {
+    background-color: #3882F6;
+    border: none;
+    font-weight: bold;
+    color: white;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+#placeholder {    
+    border-radius: 40px;
+    border: 2px solid antiquewhite;
+}
+
+.row2 {
+    background-color: white;
+    color: #1F2937;
+    display: block;
+    padding: 2vw;
+}
+
+.subrow2-2 {
+    display: flex;
+    justify-content: space-between;
+}
+
+.row3 {
+    display: block;    
+    background-color: #E5E7EB;
+    color: #1F2937;
+    padding: 2vw;
+}
+
+#quote {    
+    font-style: italic;
+    font-size: 2vw;
+    padding: 2vw 20vw 0px 20vw;
+    text-align: left;
+}
+
+.subrow3-2 {
+    padding: 0px 20vw 2vw 20vw;
+    text-align: right;
+    font-weight: bolder;
+}
+
+.tacticsimg {
+    border-radius: 40px;
+    border: 4px solid #3882F6;
+    max-width: 140px;
+    max-height: 140px;
+}
+
+.tacticsimg1 {
+    max-width: 150px;
+}
+
+.row4 {
+    background-color: white;
+    align-items: center;
+    justify-items: center;
+    justify-content: center;
+    padding: 5vw 10vw 5vw 10vw;
+}
+
+.card {
+    border-radius: 20px;
+    border: 10px solid #3882F6;
+    background-color: #3882F6;
+    padding: 2vw 5vw 2vw 5vw;
+    display: flex;
+    align-items: center;
+    justify-items: center;
+    justify-content: space-between;
+}
+
+#button2 {
+    background-color: #3882F6;
+    border: 4px solid white;
+    font-weight: bold;
+    color: white;
+    border-radius: 10px;
+    padding: 1vw 2vw 1vw 2vw;
+    margin: 0px 7vw 0px 0px;
+    max-width: 10vw;
+}
+
+.row4col1 {
+    padding: 0px 0px 0px 5vw;
+}
+
+#callaction {
+    font-weight: bolder;
+}
+
+.row5 {
+    align-items: center;
+    justify-items: center;
+    justify-content: center;
+}
